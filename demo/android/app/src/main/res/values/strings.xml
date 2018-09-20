@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EmailDemo</string>
+    <string name="title_activity_main">EmailDemo</string>
+    <string name="package_name">com.meetmaestro.hive.capacitor.emaildemo</string>
+    <string name="fileprovider_authority">com.meetmaestro.hive.capacitor.emaildemo.fileprovider</string>
+    <string name="custom_url_scheme">com.meetmaestro.hive.capacitor.emaildemo</string>
+</resources>

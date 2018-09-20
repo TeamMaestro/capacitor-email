@@ -1,0 +1,6 @@
+{
+  "appId": "com.meetmaestro.hive.capacitor.emaildemo",
+  "appName": "EmailDemo",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

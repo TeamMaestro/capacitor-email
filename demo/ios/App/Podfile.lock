@@ -1,0 +1,37 @@
+PODS:
+  - Capacitor (1.0.0-beta.6):
+    - CapacitorCordova (= 1.0.0-beta.6)
+    - GCDWebServer (~> 3.0)
+  - CapacitorCordova (1.0.0-beta.6)
+  - GCDWebServer (3.4.2):
+    - GCDWebServer/Core (= 3.4.2)
+  - GCDWebServer/Core (3.4.2)
+  - TeamhiveCapacitorEmail (0.0.1):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "TeamhiveCapacitorEmail (from `/Users/triniwiz/Documents/projects/plugins/capacitor/capacitor-email/demo/node_modules/@teamhive/capacitor-email`)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GCDWebServer
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  TeamhiveCapacitorEmail:
+    :path: "/Users/triniwiz/Documents/projects/plugins/capacitor/capacitor-email/demo/node_modules/@teamhive/capacitor-email"
+
+SPEC CHECKSUMS:
+  Capacitor: 93fe0f060c771ee521f5146973b5e1511ab9a9bf
+  CapacitorCordova: 1127cc709c470cbfde4678cd1023e790cdd74313
+  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
+  TeamhiveCapacitorEmail: 6e9c9bb2922e0e314da44eb0f47a46a14b7f5970
+
+PODFILE CHECKSUM: eb963fef9ff1db5092e45b8c777eaa6122b2dd48
+
+COCOAPODS: 1.5.3

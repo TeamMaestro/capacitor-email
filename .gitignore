@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+src/ios/Plugin/Pods/
+demo/android/app/src/main/assets
+.idea
+.vscode
+demo/android/app/build
+src/android/@teamhive/capacitor-email/build
+demo/.gradle/4.4/
