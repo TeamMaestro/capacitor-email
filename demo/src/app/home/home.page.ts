@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Email } from '@teamhive/capacitor-email';
+import { AlertController } from '@ionic/angular';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,23 +8,36 @@ import { Email } from '@teamhive/capacitor-email';
 })
 export class HomePage implements OnInit {
   email: Email;
+  constructor(private alertController: AlertController) {}
   ngOnInit(): void {
     this.email = new Email();
   }
 
   async openEmail(app?: string) {
-    const has = await this.email.hasPermission();
-    if (!has) {
-      await this.email.requestPermission();
+    const hasAccount = await this.email.isAvailable();
+    if (hasAccount.hasAccount) {
+      const has = await this.email.hasPermission();
+      if (!has) {
+        await this.email.requestPermission();
+      }
+      this.email.open({
+        to: ['fortune.osei@gmail.com', 'fortune.osei@hotmail.com'],
+        cc: ['fortune.osei@yahoo.com'],
+        bcc: ['osei.fortune@outlook.com'],
+        subject: 'Test',
+        body: 'Help',
+        app: app
+      });
+    } else {
+      const alert = await this.alertController.create({
+        header: 'Email is not setup',
+        buttons: [
+          'OK'
+        ]
+      });
+
+      await alert.present();
     }
-    this.email.open({
-      to: ['fortune.osei@gmail.com', 'fortune.osei@hotmail.com'],
-      cc: ['fortune.osei@yahoo.com'],
-      bcc: ['osei.fortune@outlook.com'],
-      subject: 'Test',
-      body: 'Help',
-      app: app
-    });
   }
   open() {
     this.openEmail();

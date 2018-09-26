@@ -5,10 +5,10 @@ const { EmailPlugin } = Plugins;
 
 export class Email implements IEmail {
 
-  isAvailable(options: AvailableOptions): Promise<AvailableResults> {
+  isAvailable(options?: AvailableOptions): Promise<AvailableResults> {
     return EmailPlugin.isAvailable(options);
   }
-  open(options: EmailOptions | null): Promise<{}> {
+  open(options?: EmailOptions):Promise<{}> {
     return EmailPlugin.open(options);
   }
   openDraft(): Promise<{}> {

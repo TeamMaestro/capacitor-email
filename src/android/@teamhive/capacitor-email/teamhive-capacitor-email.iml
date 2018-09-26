@@ -43,28 +43,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/annotations" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/attr" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/check-manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/extractedTypedefs" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/incremental" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/intermediate-jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/javaPrecompile" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/jniLibs" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/library_and_local_jars_jni" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/manifests" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/packaged-aidl" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/packaged-classes" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/packagedAssets" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/packaged_res" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/public_res" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/publish-proguard" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/res" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/rs" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/shaders" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/symbols" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../demo/node_modules/@teamhive/capacitor-email/android/@teamhive/capacitor-email/build/tmp" />
     </content>

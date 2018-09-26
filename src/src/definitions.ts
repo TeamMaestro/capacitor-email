@@ -6,7 +6,7 @@ declare global {
 
 export interface IEmail {
   isAvailable(options?: AvailableOptions): Promise<AvailableResults>;
-  open(options?: EmailOptions | null): Promise<{}>;
+  open(options?: EmailOptions): Promise<{}>;
   openDraft(): Promise<{}>;
   requestPermission(): Promise<{}>;
   hasPermission(): Promise<{}>;
@@ -30,7 +30,7 @@ export interface EmailOptions {
   attachments?: Array<string>; // file paths or base64 data streams
   subject?: String; // subject of the email
   body?: String; // email body (for HTML, set isHtml to true)
-  isHtml?: Boolean; // indicats if the body is HTML or plain text
+  isHtml?: Boolean; // indicates if the body is HTML or plain text
   type?: String; // content type of the email (Android only)
   app?: string;
 }
