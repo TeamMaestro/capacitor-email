@@ -6,12 +6,12 @@ declare global {
 
 export interface IEmail {
   isAvailable(options?: AvailableOptions): Promise<AvailableResults>;
-  open(options?: EmailOptions): Promise<{}>;
-  openDraft(): Promise<{}>;
-  requestPermission(): Promise<{}>;
-  hasPermission(): Promise<{}>;
-  getDefaults(): Promise<{}>;
-  getAliases(): Promise<{}>;
+  open(options?: EmailOptions): Promise<any>;
+  openDraft(): Promise<any>;
+  requestPermission(): Promise<any>;
+  hasPermission(): Promise<any>;
+  getDefaults(): Promise<any>;
+  getAliases(): Promise<any>;
 }
 
 export interface AvailableOptions {
