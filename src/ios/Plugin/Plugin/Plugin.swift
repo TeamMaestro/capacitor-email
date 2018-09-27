@@ -65,7 +65,7 @@ public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINav
             }
             if(to.count > 0 ){
                 for email in to{
-                    toString  = toString + email + ";"
+                    toString.append(email + ";")
                 }
                 toString.append("&")
                 toString = "to=" + toString
@@ -73,7 +73,7 @@ public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINav
 
             if(cc.count > 0){
                 for emailCC in cc {
-                    ccString  = ccString + emailCC + ";"
+                    ccString.append(emailCC + ";")
                 }
                 ccString.append("&")
                 ccString = "cc=" + ccString
@@ -81,7 +81,7 @@ public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINav
 
             if(bcc.count > 0){
                 for emailBCC in bcc {
-                    bccString  = bccString + emailBCC + ";"
+                    bccString.append(emailBCC + ";")
                 }
                 bccString.append("&")
                 bccString = "bcc=" + bccString
@@ -92,6 +92,7 @@ public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINav
             DispatchQueue.main.async {
                 UIApplication.shared.open(url!, options: [:], completionHandler: nil)
             }
+
         }else{
             DispatchQueue.main.async {
                 let mail = MFMailComposeViewController()
