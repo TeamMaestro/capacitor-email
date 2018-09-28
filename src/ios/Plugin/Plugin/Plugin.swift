@@ -6,7 +6,6 @@ import MobileCoreServices
 public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINavigationControllerDelegate{
     private var defaults:[String:Any] = [:]
     private var aliases:[String:String] = [:]
-
     public override func load() {
         let emptyArray:[String] = []
         aliases["gmail"] = "googlegmail:///co"
@@ -36,9 +35,6 @@ public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINav
     public func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         controller.dismiss(animated: true, completion: nil)
     }
-
-
-
 
     @objc func open(_ call: CAPPluginCall) {
         let emptyArray:[String] = []
@@ -97,7 +93,7 @@ public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINav
             DispatchQueue.main.async {
                 let mail = MFMailComposeViewController()
                 mail.title = chooserHeader
-                mail.delegate = self;
+                mail.mailComposeDelegate = self;
                 mail.setSubject(subject)
                 mail.setToRecipients(to)
                 mail.setCcRecipients(cc)
@@ -127,7 +123,6 @@ public class EmailPlugin: CAPPlugin , MFMailComposeViewControllerDelegate, UINav
             }
 
         }
-
         call.resolve()
     }
 
