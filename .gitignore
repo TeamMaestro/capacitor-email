@@ -8,3 +8,4 @@ demo/android/app/src/main/assets
 demo/android/app/build
 src/android/@teamhive/capacitor-email/build
 demo/.gradle/4.4/
+package-lock.json
