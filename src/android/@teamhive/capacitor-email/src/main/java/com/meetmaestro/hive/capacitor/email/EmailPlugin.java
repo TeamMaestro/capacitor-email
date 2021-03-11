@@ -201,6 +201,7 @@ public class EmailPlugin extends Plugin {
 
     @PluginMethod()
     public void requestPermission(PluginCall call) {
+        saveCall(call);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             Intent intent = AccountPicker.newChooseAccountIntent(null, null,
                     null, false, null, null, null, null);
